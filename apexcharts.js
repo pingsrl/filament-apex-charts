@@ -57,7 +57,7 @@ export default function apexcharts({
                     this.options
                 );
             }
-            this.chart.render();
+            this.chart.render(this.options.data ?? null);
         },
         updateChart: function (options) {
             this.chart.updateOptions(options, false, true, true);
