@@ -29,7 +29,7 @@ class ApexChartWidget extends Widget implements HasForms
 
     protected static ?string $chartId = null;
 
-    protected static string $view = 'filament-apex-charts::widgets.apex-chart-widget';
+    protected string $view = 'filament-apex-charts::widgets.apex-chart-widget';
 
     public ?array $options = null;
 
